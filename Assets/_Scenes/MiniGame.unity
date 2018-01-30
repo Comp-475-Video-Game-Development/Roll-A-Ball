@@ -1386,7 +1386,6 @@ GameObject:
   - component: {fileID: 1538534716}
   - component: {fileID: 1538534715}
   - component: {fileID: 1538534714}
-  - component: {fileID: 1538534720}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -1405,9 +1404,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f9ee2e2e306f2a4aae0b87f1cb70176, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speedyHurryUpZoom: 10
+  speed: 10
   countText: {fileID: 2024666726}
   endText: {fileID: 806725933}
+  timerText: {fileID: 935089773}
 --- !u!135 &1538534715
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -1489,19 +1489,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1538534720
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1538534713}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e35a0c29e3b48824b86c24b3079b6ffd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  timerText: {fileID: 935089773}
-  endText: {fileID: 806725933}
 --- !u!1001 &1636932008
 Prefab:
   m_ObjectHideFlags: 0
